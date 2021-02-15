@@ -292,7 +292,7 @@ peliculas[,2]
 ## EXTRA
 
 # crear matriz 
-ventas <- c(460.998, 314.4, 290.475, 247.900, 309.306, 165.8, 565.89, 78.98, 344.3, 590.99, 100.00, 345.67, 321.4, 890.99, 33.33, 789.12, 678.345)
+ventas <- c(460.998, 314.4, 290.475, 247.900, 309.306, 165.8, 565.89, 78.98, 344.3, 590.99, 100.00, 345.67, 321.4, 890.99, 33.33, 789.12, 678.345, 388.8)
 ventas_worlwide <- matrix(ventas, nrow = 9, byrow = TRUE,
                            dimnames = list(c("Naranjas", "Peras", "Platanos", "Uvas", "Mangos", "Papaya", "Kiwis", "Ciruelas", "Tomates"), 
                                            c("US", "non-US")))
@@ -353,7 +353,7 @@ peliculas_df[1,]
 # seleccionar una columna del dataframe
 peliculas_df[,2]
 peliculas_df[,'PUNTUACION']
-peliculas_df$PUNTUACION
+peliculas_df$PUNTUACION #el símbolo '$' no vale para las matrices, solo para df
 
 ## ORDENAR DATAFRAME
 
@@ -411,7 +411,7 @@ lista_curso <- list(nombre_peliculas, peliculas)
 
 # mostrar lista
 lista_curso
-
+data()
 # cambiar nombre de lista
 names(lista_curso) <- c('vector', 'matriz')
 

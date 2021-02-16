@@ -6,3 +6,13 @@ This repository includes some basic projects in R made during my Data Science bo
   - Knowing the enviroment
   - Getting used to the synthax
   - First operations
+
+*Day 2*
+- R functions:
+  - ifelse
+  - for loops
+  - function
+  - while
+  - statistics (mean, standard deviation, median)
+  - lapply
+  
